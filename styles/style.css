@@ -177,3 +177,48 @@ nav ul{
     font-weight: 400;
     color: #757575;
 }
+/* Resume Details Styles */
+.resume-main-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 110px;
+    color: #181818;
+}
+.two-in-one{
+    display: flex;
+    margin: 50px 160px;
+    margin-bottom: 10px;
+    gap: 25px;
+}
+.without-header{
+    margin-top: 19px;
+}
+.resume-headers{
+    font-size: 24px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.resume-sub-title{
+    font-size: 15px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 5px;
+}
+.resume-description{
+    font-size: 13px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 20px;
+}
+/* Download CV Button Styles */
+.Download-cv-btn{
+    text-align: center;
+    margin: 20px 0px 100px 0px;
+}
