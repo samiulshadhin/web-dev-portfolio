@@ -78,13 +78,13 @@ nav ul{
     font-size: 30px;
     font-weight: 600;
     color: #474747;
-    /* margin-bottom: 5px; */
+    /* margin: 0 0 5px 0; */
 }
 .banner-title{
     font-size: 57px;
     font-weight: 700;
     color: #181818;
-    /* margin-bottom: 10px; */
+    /* margin-bottom: 0 0 5px 0; */
 }
 .banner-description{
     font-size: 12px;
@@ -93,4 +93,44 @@ nav ul{
 }
 .picture-of-hardy{
     width: 390px;
+}
+
+/* main styles */
+
+.about-section{
+    background-color: #FFF8F3;
+    max-width: 760px;
+    margin: 90px auto;
+    border-radius: 20px;
+    padding: 87px 105px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.section-head{
+    font-size: 25px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+    
+}
+.section-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.item-title{
+    font-weight: 400;
+    font-size: 13px;
+    color: #757575;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 13px;
+    color: #474747;
 }
