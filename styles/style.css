@@ -41,6 +41,16 @@ nav{
     border: none;
     color: #FFFFFF;
 }
+.btn-contact{
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 12px 23px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FD6E0A;
+    margin-left: 15px;
+}
 nav ul li{
     list-style: none;
     margin-right: 33px;
