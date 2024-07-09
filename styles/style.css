@@ -5,18 +5,28 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+.header{
+background-image: url(../images/developer.png), url(../images/header_bg.png);
+background-repeat: no-repeat, no-repeat;
+background-size: contain, cover;
+background-size: 60px, 560px;
+background-position: left center, right bottom;
+}
+
 
 /* nav styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 134px;
 }
 .mary{
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 800;
     color: #181818;
+    margin-left: 20px;
 }
 .r-color{
     color: #FD6E0A;
@@ -24,19 +34,19 @@ nav{
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
-    font-size: 20px;
-    padding: 18px 35px;
+    font-size: 13px;
+    padding: 12px 23px;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
 }
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 33px;
 }
 nav li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 13px;
 }
 nav ul{
     display: flex;
@@ -45,4 +55,31 @@ nav ul{
 }
 .dark-2{
     color: #474747;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 0 155px;
+}
+.banner-greetings{
+    font-size: 30px;
+    font-weight: 600;
+    color: #474747;
+    /* margin-bottom: 5px; */
+}
+.banner-title{
+    font-size: 57px;
+    font-weight: 700;
+    color: #181818;
+    /* margin-bottom: 10px; */
+}
+.banner-description{
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+}
+.picture-of-hardy{
+    width: 390px;
 }
