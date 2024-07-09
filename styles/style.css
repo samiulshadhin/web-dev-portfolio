@@ -12,8 +12,9 @@ background-repeat: no-repeat, no-repeat;
 background-size: contain, cover;
 background-size: 60px, 560px;
 background-position: left center, right bottom;
+background-color: #FFF8F3;
+/* margin-top: 200px, 0; */
 }
-
 
 /* nav styles */
 nav{
