@@ -222,3 +222,60 @@ nav ul{
     text-align: center;
     margin: 20px 0px 100px 0px;
 }
+
+/* Footer Styles */
+footer{
+    background-color: #FFF8F3;
+}
+.all-footer-items{
+    display: flex;
+    padding: 100px 200px;
+    gap: 60px;
+}
+.footer-titles{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #181818;
+}
+.footer-paragraph{
+    font-size: 12px;
+    font-weight: 400;
+    color: #474747;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+footer div a{
+    margin-right: 20px;
+}
+footer input[type="text"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 325px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 25px;
+}
+footer input[type="email"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 325px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 25px;
+}
+.message-field{
+    margin-bottom: 0px;
+    width: 325px;
+    height: 140px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 25px;
+    resize: none;
+    padding-top: 20px;
+}
+.form-fields{
+    margin-bottom: 20px;
+}
